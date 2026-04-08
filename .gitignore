@@ -1,0 +1,17 @@
+# Disk image files
+*.img
+*.cf
+
+# Backup and temporary files
+*~
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# IDE and editor files
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
