@@ -1,11 +1,11 @@
-REM ============================================
-REM  FROM THE BOOK "BASIC FUN" BY SUSAN DRAKE 
-REM  LIBSCOMB AND MARGARET ANN ZUANICH
-REM ============================================
+5 REM ============================================
+10 REM  FROM THE BOOK "BASIC FUN" BY SUSAN DRAKE
+15 REM  LIBSCOMB AND MARGARET ANN ZUANICH
+20 REM ============================================
 
-REM ============================================
-REM  RKPAPSC.BAS: ROCK, PAPER, SCISSORS
-REM ============================================
+25 REM ============================================
+30 REM  RKPAPSC.BAS: ROCK, PAPER, SCISSORS
+35 REM ============================================
 95 LET X=RND(1)
 100 DIM B$(4),A$(1)
 105 LET B$="PSRX"
