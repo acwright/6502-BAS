@@ -35,12 +35,17 @@ The `cffs` tool is used to create CompactFlash disk images and add files to them
 
 For more information, see the [cffs project](https://github.com/acwright/cffs).
 
+#### 6502 CLI
+
+Installed via the [6502-EMULATOR](https://github.com/acwright/6502-EMULATOR) app's Settings → Command Line → Install. Required for the `make run` target.
+
 ### Available Targets
 
 - `make` or `make all` - Tokenize the listing and build a CompactFlash image containing it
 - `make build` - Tokenize the listing into a `.prg`
 - `make view` - Display hexdump of the tokenized `.prg`
 - `make cf` - Create a CompactFlash image and add the `.prg` to it
+- `make run` - Launch the emulator app with the tokenized listing loaded
 - `make clean` - Remove build artifacts
 
 ### Example
@@ -49,6 +54,7 @@ For more information, see the [cffs project](https://github.com/acwright/cffs).
 cd RKPAPSC
 make        # Tokenize the listing and build the CF image
 make view   # View the hexdump
+make run    # Launch the emulator
 ```
 
 ## Usage

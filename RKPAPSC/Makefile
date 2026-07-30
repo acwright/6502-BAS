@@ -11,6 +11,9 @@ build: $(TARGET).txt
 view:
 	hexdump -C $(TARGET).prg
 
+run:
+	6502 run $(TARGET).prg
+
 cf:
 	cffs create $(TARGET).img --size 1M
 	cffs add $(TARGET).img $(TARGET).prg --name $(EIGHTTHREE).PRG
