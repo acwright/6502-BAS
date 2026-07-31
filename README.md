@@ -60,3 +60,15 @@ make run    # Launch the emulator
 ## Usage
 
 The `.txt` source in each directory is a plain-text BASIC listing and can also be typed directly into the interpreter by hand if you'd rather not build it. Program listings load at `$0800`, matching the system's `PROGRAM_START`.
+
+## Related
+
+- [6502-ACE](https://github.com/acwright/6502-ACE) — the hardware, and the index of the whole family
+- [6502-BIOS](https://github.com/acwright/6502-BIOS) — the BASIC dialect these listings are written in
+- [6502-EMULATOR](https://github.com/acwright/6502-EMULATOR) — run a listing without hardware (`make run`)
+- [6502-ASM](https://github.com/acwright/6502-ASM) — the same idea for assembly language programs
+- [bastok](https://github.com/acwright/bastok) / [cffs](https://github.com/acwright/cffs) — the tools behind `make build` and `make cf`
+
+## License
+
+MIT License — see [LICENSE](LICENSE).
