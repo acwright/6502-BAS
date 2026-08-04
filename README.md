@@ -7,6 +7,9 @@ Each listing lives in its own directory as a `.txt` source file and can be
 tokenized into a `.prg` and packaged onto a CompactFlash disk image for the
 system's BASIC interpreter.
 
+> 📖 **Guide:** [AC6502 Documentation](https://acwright.github.io/6502-DOCS/) — the user's and programmer's guide for the whole family.
+> The dialect these listings are written in is taught in [the BASIC guide](https://acwright.github.io/6502-DOCS/basic/).
+
 ## Building Programs
 
 Each listing directory contains its own Makefile. To build a listing, navigate to its directory and use `make`.
@@ -68,6 +71,7 @@ The `.txt` source in each directory is a plain-text BASIC listing and can also b
 - [6502-EMULATOR](https://github.com/acwright/6502-EMULATOR) — run a listing without hardware (`make run`)
 - [6502-ASM](https://github.com/acwright/6502-ASM) — the same idea for assembly language programs
 - [bastok](https://github.com/acwright/bastok) / [cffs](https://github.com/acwright/cffs) — the tools behind `make build` and `make cf`
+- [6502-DOCS](https://github.com/acwright/6502-DOCS) — the documentation site: the BASIC guide and the printable reference cards
 
 ## License
 
