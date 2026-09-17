@@ -1,7 +1,7 @@
 6502-BAS
 ========
 
-BASIC program listings for the [A.C. Wright 6502](https://github.com/acwright/6502-ACE) family of computer systems.
+BASIC program listings for the [AC6502](https://github.com/acwright/6502-ACE) family of computer systems.
 
 Each listing lives in its own directory as a `.txt` source file and can be
 tokenized into a `.prg` and packaged onto a CompactFlash disk image for the
